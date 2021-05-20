@@ -1,0 +1,25 @@
+{
+  "name": "appsyncproject",
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sls": "sls"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarianoFndz/AppSyncProject.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MarianoFndz/AppSyncProject/issues"
+  },
+  "homepage": "https://github.com/MarianoFndz/AppSyncProject#readme",
+  "devDependencies": {
+    "serverless": "2.4.0",
+    "serverless-appsync-plugin": "^1.11.3"
+  }
+}
