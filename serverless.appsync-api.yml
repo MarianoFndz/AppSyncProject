@@ -1,2 +1,7 @@
-name: appsyncproject
+name: appsyncpersonalproject
 schema: schema.api.graphql
+authenticationType: AMAZON_COGNITO_USER_POOLS
+userPoolConfig: 
+  awsRegion: us-west-2
+  defaultAction: ALLOW
+  userPoolId: !Ref CognitoUserPool

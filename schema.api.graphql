@@ -142,7 +142,7 @@ type Reply implements ITweet {
 type Retweet implements ITweet {
   id: ID!
   profile: IProfile!
-  createAt: AWSDateTime!
+  createdAt: AWSDateTime!
   retweetOf: ITweet!
 }
 
